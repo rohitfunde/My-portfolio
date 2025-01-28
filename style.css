@@ -15,6 +15,9 @@ body {
     padding: 1rem 2rem;
     background-color: #333;
     color: #fff;
+    position: sticky;
+    top: 0px;
+    right: 10px;
 }
 
 .navbar .logo {
@@ -559,10 +562,11 @@ body, html {
         flex-direction: column;
         background-color: #333;
         position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
+        top: 70%;
+        left: 91%;
+        /* width: 100%; */
         padding: 1rem 0;
+        
     }
 
     .navbar .menu.active {
