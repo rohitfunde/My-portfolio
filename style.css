@@ -563,7 +563,7 @@ body, html {
         background-color: #333;
         position: absolute;
         top: 70%;
-        left: 91%;
+        left: 83%;
         /* width: 100%; */
         padding: 1rem 0;
         
@@ -571,6 +571,7 @@ body, html {
 
     .navbar .menu.active {
         display: flex;
+        width: 62px;
     }
 
     .hamburger {
